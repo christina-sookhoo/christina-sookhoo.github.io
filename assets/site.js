@@ -9,3 +9,6 @@ if (menu && nav) {
   window.matchMedia('(min-width: 761px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 }
 document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+
+function openLinkedProject(){const id=location.hash.slice(1);if(!id)return;const item=document.getElementById(id);if(item?.matches('.project-dropdown'))item.open=true;}
+openLinkedProject();window.addEventListener('hashchange',openLinkedProject);
