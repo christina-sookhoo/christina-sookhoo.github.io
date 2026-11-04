@@ -26,3 +26,7 @@
 @media print{.resume-bullets li{font-size:10pt!important}.full-experience>li{break-inside:auto}.education-grid h3{font-size:11pt}.education-grid p{font-size:10pt}}
 
 .interest-card.movement-card img{object-position:50% 48%}.interest-card.pets-card img{object-position:50% 40%}.split .holding-image img[src*="dog-personal"]{object-position:center 38%}
+
+/* Keep personal photographs fully visible in their frames. */
+.interest-card.movement-card img,.interest-card.pets-card img{object-fit:contain;object-position:center;background:var(--ivory)}
+.holding-image img[src*="christina-yoga-personal"],.holding-image img[src*="dog-personal"]{object-fit:contain;object-position:center;background:var(--ivory)}
