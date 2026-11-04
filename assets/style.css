@@ -26,3 +26,5 @@
 @media print{.resume-bullets li{font-size:10pt!important}.full-experience>li{break-inside:auto}.education-grid h3{font-size:11pt}.education-grid p{font-size:10pt}}
 
 .interest-card.movement-card img{object-position:50% 48%}.interest-card.pets-card img{object-position:50% 40%}.split .holding-image img[src*="dog-personal"]{object-position:center 38%}
+
+.interest-card.movement-card img,.interest-card.pets-card img{object-fit:cover;object-position:center}.holding-image img[src*="expanded"]{object-fit:cover;object-position:center}
