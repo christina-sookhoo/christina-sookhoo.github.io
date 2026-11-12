@@ -28,3 +28,51 @@
 .interest-card.movement-card img{object-position:50% 48%}.interest-card.pets-card img{object-position:50% 40%}.split .holding-image img[src*="dog-personal"]{object-position:center 38%}
 
 .interest-card.movement-card img,.interest-card.pets-card img{object-fit:cover;object-position:center}.holding-image img[src*="expanded"]{object-fit:cover;object-position:center}
+
+
+/* Homepage type scale */
+.homepage .hero h1 {
+  font-size: clamp(76px, 8vw, 112px);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+}
+
+.homepage .hero-role,
+.homepage .hero-line {
+  font-size: 18px;
+}
+
+.homepage .availability,
+.homepage .hero-actions a,
+.homepage .home-about .text-link,
+.homepage .dropdown-content .text-link {
+  font-size: 14px;
+}
+
+.homepage .work-introduction,
+.homepage .home-about p,
+.homepage .project-dropdown .dropdown-content p {
+  font-size: 16px;
+}
+
+.homepage .project-dropdown summary strong,
+.homepage .interest-card h3 {
+  font-size: 17px;
+}
+
+.homepage .project-dropdown summary span span,
+.homepage .project-dropdown .dropdown-content h2,
+.homepage .interest-card p {
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  .homepage .hero h1 {
+    font-size: clamp(52px, 15vw, 76px);
+  }
+
+  .homepage .hero-role,
+  .homepage .hero-line {
+    font-size: 16px;
+  }
+}
