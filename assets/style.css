@@ -91,3 +91,20 @@
     width: 148px;
   }
 }
+
+/* Laptop backdrop behind the framed homepage portrait. */
+.homepage .hero-shell {
+  background:
+    linear-gradient(90deg, rgba(67, 34, 46, .94), rgba(67, 34, 46, .78)),
+    url("desk.jpg") 100% 57% / cover no-repeat,
+    var(--wine);
+}
+.homepage .hero-portrait {
+  background: #492a34;
+}
+@media (min-width: 761px) {
+  .homepage .hero-shell {
+    background-position: center, right 57%, center;
+    background-size: cover, max(108%, 850px) auto, cover;
+  }
+}
