@@ -104,7 +104,7 @@
 }
 @media (min-width: 761px) {
   .homepage .hero-shell {
-    background-position: center, right 57%, center;
+    background-position: center, 65% 57%, center;
     background-size: cover, max(108%, 850px) auto, cover;
   }
 }
