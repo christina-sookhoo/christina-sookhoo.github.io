@@ -28,3 +28,20 @@
 .interest-card.movement-card img{object-position:50% 48%}.interest-card.pets-card img{object-position:50% 40%}.split .holding-image img[src*="dog-personal"]{object-position:center 38%}
 
 .interest-card.movement-card img,.interest-card.pets-card img{object-fit:cover;object-position:center}.holding-image img[src*="expanded"]{object-fit:cover;object-position:center}
+
+/* Keep image disclosures in page footers, separate from editorial content. */
+.footer-bottom .photo-disclosure,
+.footer-bottom .photo-credits-link {
+  font-family: var(--sans);
+  font-size: 10px;
+  line-height: 1.5;
+}
+.footer-bottom .photo-disclosure {
+  flex: 0 0 100%;
+  margin: 0;
+}
+.holding-credit {
+  font-family: var(--sans);
+  font-size: 10px;
+  padding-top: 24px;
+}
