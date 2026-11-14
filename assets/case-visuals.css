@@ -1,0 +1,29 @@
+.case-visual {
+  margin: 0 0 36px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--ivory);
+}
+.case-visual figcaption {
+  margin: 0 0 16px;
+  color: var(--wine);
+  font-weight: 600;
+  font-size: 15px;
+}
+.case-comparison, .case-steps { margin: 0; padding: 0; }
+.case-comparison > div + div { margin-top: 12px; }
+.case-comparison dt { font-size: 13px; }
+.case-comparison dd {
+  margin: 3px 0 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 3em;
+  align-items: center;
+  gap: 10px;
+}
+.case-bar { display: block; width: var(--bar-width); height: 8px; background: var(--wine); }
+.case-comparison > div:first-child .case-bar { opacity: .5; }
+.case-comparison strong { color: var(--wine); }
+.case-steps { list-style: none; display: grid; gap: 12px; }
+.case-steps li { padding-left: 12px; border-left: 2px solid var(--wine); }
+.case-steps li span { display: block; font-size: 13px; }
+.case-body .case-visual .case-note { font-size: 12px; margin-top: 14px; }
